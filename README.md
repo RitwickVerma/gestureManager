@@ -31,6 +31,6 @@ Dependencies:
 - python3
 - gtk+>=3.18
 
-Once you have installed all the dependencies, clone this repository (`git clone https://github.com/gabmus/gesturesManager`).
+Once you have installed all the dependencies, clone this repository (`git clone https://github.com/GabMus/gestureManager`).
 
 Then all you have to do is opening the newly cloned folder, and running `main.py` (either using `python3 main.py` or simply `./main.py`).

@@ -91,7 +91,7 @@ def populate_gestures_listbox():
         box.set_margin_right(6)
         box.set_margin_bottom(6)
         label=Gtk.Label()
-        label.set_text(str(g))
+        label.set_text(str(g).replace('_',' ',1))
         box.pack_start(label, False, True, 0)
         row=Gtk.ListBoxRow()
         row.add(box)

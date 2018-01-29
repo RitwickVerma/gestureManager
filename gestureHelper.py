@@ -66,8 +66,12 @@ D_LEFT='left'
 D_RIGHT='right'
 D_IN='in'
 D_OUT='out'
+D_RIGHT_UP='right_up'
+D_RIGHT_DOWN='right_down'
+D_LEFT_UP='left_up'
+D_LEFT_DOWN='left_down'
 
-DIRECTIONS=[D_UP, D_DOWN, D_LEFT, D_RIGHT, D_IN, D_OUT]
+DIRECTIONS=[D_UP, D_DOWN, D_LEFT, D_RIGHT, D_IN, D_OUT, D_RIGHT_UP, D_RIGHT_DOWN, D_LEFT_UP, D_LEFT_DOWN]
 
 EXCEPTION_ACTION_NOT_IN_ACTIONS='The specified action is neither swipe or pinch'
 EXCEPTION_DIRECTION_NOT_IN_DIRECTIONS='The specified direction is invalid'
@@ -113,6 +117,10 @@ GESTURES_POSSIBLE=[
     Gesture(ACTION_SWIPE, D_RIGHT, 4),
     Gesture(ACTION_PINCH, D_IN, 4),
     Gesture(ACTION_PINCH, D_OUT, 4),
+    Gesture(ACTION_SWIPE, D_RIGHT_UP, 3),
+    Gesture(ACTION_SWIPE, D_RIGHT_DOWN, 3),
+    Gesture(ACTION_SWIPE, D_LEFT_UP, 3),
+    Gesture(ACTION_SWIPE, D_LEFT_DOWN, 3),
 ]
 
 # initialize empty dict of gesture:animationPath
